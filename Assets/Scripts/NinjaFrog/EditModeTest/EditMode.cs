@@ -20,7 +20,6 @@ public class EditMode
         Assert.AreEqual(3, stats.maxLives, "The default lives should be " + 3 + " but was " + stats.maxLives);
     }
 
-    // Case Test for power and range
     [TestCase(true, 1, 1)]
     [TestCase(true, 2, 1)]
     [TestCase(false, 0, 1)]
