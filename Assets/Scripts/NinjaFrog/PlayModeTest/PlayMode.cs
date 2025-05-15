@@ -29,7 +29,7 @@ namespace NinjaFrog
         [UnityTest]
         public IEnumerator NinjaFrogFall()
         {
-            yield return new WaitForSeconds(7);
+            yield return new WaitForSeconds(6);
 
             NinjaFrog1 = GameObject.Find("NinjaFrog1");
             Ground = GameObject.Find("Ground");
